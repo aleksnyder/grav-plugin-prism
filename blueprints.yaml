@@ -1,0 +1,31 @@
+name: Prism
+version: 0.1.0
+description: Provide a way to embed prism's syntax highlighting library in markdown.
+icon: plug
+author:
+  name: Alek Snyder
+  email: asnyder0816@gmail.com
+homepage: https://github.com/aleksnyder/grav-plugin-prism
+demo: http://demo.yoursite.com
+keywords: grav, plugin, etc
+bugs: https://github.com/aleksnyder/grav-plugin-prism/issues
+docs: https://github.com/aleksnyder/grav-plugin-prism/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    text_var:
+      type: text
+      label: Text Variable
+      help: Text to add to the top of a page

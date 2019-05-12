@@ -1,0 +1,33 @@
+{
+  "name": "aleksnyder/grav-plugin-prism",
+  "type": "grav-plugin",
+  "description": "Embed code blocks with Prism's syntax highlighting",
+  "keywords": ["prism"],
+  "homepage": "https://github.com/aleksnyder/grav-plugin-prism",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alek Snyder",
+      "email": "asnyder0816@gmail.com",
+      "homepage": "https://www.aleksnyder.net",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/getgrav/grav-plugin-prism/issues",
+    "docs": "https://github.com/getgrav/grav-plugin-prism/blob/master/README.md"
+  },
+  "require": {
+    "php": ">=7.1.3"
+  },
+  "autoload": {
+    "classmap": [
+      "prism.php"
+    ]
+  },
+  "config": {
+    "platform": {
+      "php": "7.1.3"
+    }
+  }
+}
